@@ -8,9 +8,10 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Emilio Blacksmith's",
-    pageTitleSuffix: "Quartz",
+    pageTitle: "Emilio Blacksmith's Notes",
+    pageTitleSuffix: "",
     enableSPA: true,
+    description: "DevBlogs out of Hell",
     enablePopovers: true,
     analytics: {
       provider: "plausible",
