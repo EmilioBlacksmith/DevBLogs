@@ -1,18 +1,21 @@
-# Quartz v4
+# DevBLogs
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+My personal blog and digital garden where I share thoughts, learnings, and insights on software development.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## Development
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Start the development server:
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+```bash
+npm run dev
+```
 
-## Sponsors
+Build for production:
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```bash
+npm run build
+```
+
+## About
+
+This site is built with [Quartz](https://quartz.jzhao.xyz/), a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites.

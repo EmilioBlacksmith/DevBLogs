@@ -1,23 +1,16 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "devblogs",
+  "description": "Personal blog and digital garden",
   "private": true,
-  "version": "4.5.2",
+  "version": "1.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Emilio Herrera",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
-  },
   "scripts": {
-    "quartz": "./quartz/bootstrap-cli.mjs",
-    "docs": "npx quartz build --serve -d docs",
+    "build": "npx quartz build",
+    "dev": "npx quartz build --serve",
     "check": "tsc --noEmit && npx prettier . --check",
-    "format": "npx prettier . --write",
-    "test": "tsx --test",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "format": "npx prettier . --write"
   },
   "engines": {
     "npm": ">=10.9.2",
