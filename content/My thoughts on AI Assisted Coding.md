@@ -1,6 +1,6 @@
 ---
-title: My thoughts in AI Coding
-slug: thoughts-in-ai-coding
+title: My thoughts in AI Assisted Coding
+slug: thoughts-in-ai-assisted-coding
 description: Hey CLAUDE code write this post
 date: 2025-11-12
 lastmod: 2025-11-12
